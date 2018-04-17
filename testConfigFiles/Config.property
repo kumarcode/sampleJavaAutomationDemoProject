@@ -1,0 +1,3 @@
+URL = http://horse-dev.azurewebsites.net/
+ChromeDriver = C://Users//Kumar//Desktop//chromedriver_win32 (3)//chromedriver.exe
+ExcelPath = C://Users//Kumar//workspace//SampleProject//com.sampleAutomationFramework//TestData//TestData.xlsx

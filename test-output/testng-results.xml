@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34649" started-at="2018-04-16T22:19:05Z" finished-at="2018-04-16T22:19:40Z">
+    <groups>
+    </groups>
+    <test name="TestCase 1" duration-ms="19992" started-at="2018-04-16T22:19:05Z" finished-at="2018-04-16T22:19:25Z">
+      <class name="testPackage.TestClass">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:testPackage.TestClass@12cdcf4]" name="setUpTest" is-config="true" duration-ms="8693" started-at="2018-04-17T10:19:05Z" finished-at="2018-04-17T10:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testPackage.TestClass@12cdcf4]" name="loginTest" duration-ms="10271" started-at="2018-04-17T10:19:14Z" description="Test to validate the login feature" finished-at="2018-04-17T10:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:testPackage.TestClass@12cdcf4]" name="tearDownTest" is-config="true" duration-ms="994" started-at="2018-04-17T10:19:24Z" finished-at="2018-04-17T10:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- testPackage.TestClass -->
+    </test> <!-- TestCase 1 -->
+    <test name="TestCase 2" duration-ms="14608" started-at="2018-04-16T22:19:25Z" finished-at="2018-04-16T22:19:40Z">
+      <class name="testPackage.TestClass2">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:testPackage.TestClass2@66d1af89]" name="setUpTest" is-config="true" duration-ms="6283" started-at="2018-04-17T10:19:25Z" finished-at="2018-04-17T10:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testPackage.TestClass2@66d1af89]" name="loginTest" duration-ms="7398" started-at="2018-04-17T10:19:32Z" description="Test TWO to validate the login feature" finished-at="2018-04-17T10:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:testPackage.TestClass2@66d1af89]" name="tearDownTest" is-config="true" duration-ms="924" started-at="2018-04-17T10:19:39Z" finished-at="2018-04-17T10:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- testPackage.TestClass2 -->
+    </test> <!-- TestCase 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
