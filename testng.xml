@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="3" parallel="false">
 
-  <test name="TestCase 1">
+  <test name="TestCase 1" parallel="tests">
     <classes>
       <class name="testPackage.TestClass"/>
     </classes>
   </test> <!-- Test -->
   
-   <test name="TestCase 2">
+   <test name="TestCase 2" parallel="tests">
     <classes>
       <class name="testPackage.TestClass2"/>
     </classes>

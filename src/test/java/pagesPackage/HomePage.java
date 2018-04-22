@@ -11,7 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 import helperPackage.BrowserFactory;
 
 public class HomePage {
-	
+	//BrowserFactory browserObj;	
+
 	//POM constructor
 	public HomePage()
 	{

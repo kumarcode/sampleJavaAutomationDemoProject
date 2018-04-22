@@ -2,40 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34649" started-at="2018-04-16T22:19:05Z" finished-at="2018-04-16T22:19:40Z">
+  <suite name="Default suite" duration-ms="33532" started-at="2018-04-22T00:34:54Z" finished-at="2018-04-22T00:35:27Z">
     <groups>
     </groups>
-    <test name="TestCase 1" duration-ms="19992" started-at="2018-04-16T22:19:05Z" finished-at="2018-04-16T22:19:25Z">
+    <test name="Default test" duration-ms="33532" started-at="2018-04-22T00:34:54Z" finished-at="2018-04-22T00:35:27Z">
       <class name="testPackage.TestClass">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:testPackage.TestClass@12cdcf4]" name="setUpTest" is-config="true" duration-ms="8693" started-at="2018-04-17T10:19:05Z" finished-at="2018-04-17T10:19:14Z">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:testPackage.TestClass@eafc191]" name="testInit" is-config="true" duration-ms="320" started-at="2018-04-22T00:34:54Z" finished-at="2018-04-22T00:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="setUpTest(java.lang.reflect.Method)[pri:0, instance:testPackage.TestClass@eafc191]" name="setUpTest" is-config="true" duration-ms="9338" started-at="2018-04-22T00:34:54Z" finished-at="2018-04-22T00:35:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPackage.TestClass.loginTest()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testPackage.TestClass@12cdcf4]" name="loginTest" duration-ms="10271" started-at="2018-04-17T10:19:14Z" description="Test to validate the login feature" finished-at="2018-04-17T10:19:24Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testPackage.TestClass@eafc191]" name="loginTest" duration-ms="7174" started-at="2018-04-22T00:35:03Z" description="Test to validate the login feature" finished-at="2018-04-22T00:35:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:testPackage.TestClass@12cdcf4]" name="tearDownTest" is-config="true" duration-ms="994" started-at="2018-04-17T10:19:24Z" finished-at="2018-04-17T10:19:25Z">
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@eafc191]" name="tearDownTest" is-config="true" duration-ms="1161" started-at="2018-04-22T00:35:10Z" finished-at="2018-04-22T00:35:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TestClass.loginTest()[pri:0, instance:testPackage.TestClass@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setUpTest(java.lang.reflect.Method)[pri:0, instance:testPackage.TestClass@eafc191]" name="setUpTest" is-config="true" duration-ms="9091" started-at="2018-04-22T00:35:12Z" finished-at="2018-04-22T00:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPackage.TestClass.loginTest2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="loginTest2()[pri:0, instance:testPackage.TestClass@eafc191]" name="loginTest2" duration-ms="4940" started-at="2018-04-22T00:35:21Z" description="Test2 to validate the login feature" finished-at="2018-04-22T00:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@eafc191]" name="tearDownTest" is-config="true" duration-ms="888" started-at="2018-04-22T00:35:26Z" finished-at="2018-04-22T00:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest2 status=SUCCESS method=TestClass.loginTest2()[pri:0, instance:testPackage.TestClass@eafc191] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:testPackage.TestClass@eafc191]" name="clearUp" is-config="true" duration-ms="590" started-at="2018-04-22T00:35:26Z" finished-at="2018-04-22T00:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
       </class> <!-- testPackage.TestClass -->
-    </test> <!-- TestCase 1 -->
-    <test name="TestCase 2" duration-ms="14608" started-at="2018-04-16T22:19:25Z" finished-at="2018-04-16T22:19:40Z">
-      <class name="testPackage.TestClass2">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:testPackage.TestClass2@66d1af89]" name="setUpTest" is-config="true" duration-ms="6283" started-at="2018-04-17T10:19:25Z" finished-at="2018-04-17T10:19:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testPackage.TestClass2@66d1af89]" name="loginTest" duration-ms="7398" started-at="2018-04-17T10:19:32Z" description="Test TWO to validate the login feature" finished-at="2018-04-17T10:19:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:testPackage.TestClass2@66d1af89]" name="tearDownTest" is-config="true" duration-ms="924" started-at="2018-04-17T10:19:39Z" finished-at="2018-04-17T10:19:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- testPackage.TestClass2 -->
-    </test> <!-- TestCase 2 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

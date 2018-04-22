@@ -13,10 +13,11 @@ import utilityPackage.ExcelDataConfig;
 import utilityPackage.ScreenShot;
 
 public class LoginPage {
-		
+	//BrowserFactory browserObj;	
 	//driver constructor for the page
 	public LoginPage()
 	{
+		//browserObj = new BrowserFactory();
 		PageFactory.initElements(BrowserFactory.driver, this);
 	}
 	
@@ -39,7 +40,7 @@ public class LoginPage {
 	public void loginSteps()
 	{
 		
-		ExcelDataConfig excel = new ExcelDataConfig(ConfigReader.getExcelPath());
+		ExcelDataConfig excel = new ExcelDataConfig("./TestData/TestData.xlsx");
 		
 		//Send Value to the UserName textBox
 		Username.sendKeys(excel.getData("Login", 1, 0));

@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="TestCase 1(failed)" parallel="classes">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="3" name="TestCase 1(failed)" parallel="tests">
     <classes>
       <class name="testPackage.TestClass">
         <methods>
           <include name="loginTest"/>
+          <include name="testInit"/>
+          <include name="loginTest2"/>
           <include name="setUpTest"/>
+          <include name="clearUp"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- testPackage.TestClass -->
+    </classes>
+  </test> <!-- TestCase 1(failed) -->
+  <test thread-count="3" name="TestCase 2(failed)" parallel="tests">
+    <classes>
       <class name="testPackage.TestClass2">
         <methods>
+          <include name="testInit"/>
           <include name="setUpTest"/>
+          <include name="clearUp"/>
           <include name="loginTest"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- testPackage.TestClass2 -->
     </classes>
-  </test> <!-- TestCase 1(failed) -->
+  </test> <!-- TestCase 2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

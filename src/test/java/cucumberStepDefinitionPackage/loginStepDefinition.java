@@ -9,6 +9,8 @@ import pagesPackage.LoginPage;
 
 public class loginStepDefinition {
 	
+	//BrowserFactory browserObj;
+	
 	@Given("^I have launched the browser and entered the URL$")
 	public void i_have_launched_the_browser_and_entered_the_URL() throws Throwable {
 		//Initiate driver and launch url
